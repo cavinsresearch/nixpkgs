@@ -38,14 +38,14 @@
 
 buildPythonPackage rec {
   pname = "fsspec";
-  version = "2025.3.1";
+  version = "2025.7.0";
   pyproject = true;
 
   src = fetchFromGitHub {
     owner = "fsspec";
     repo = "filesystem_spec";
     tag = version;
-    hash = "sha256-85/IOxR77ozlVCVtZZ8hVmmIBFpSBn6v7zkv+vT445k=";
+    hash = "sha256-/l4A1JH4YxVGSPzQBZpDKoHzuyq2AysD4tYfh4nZ++Q=";
   };
 
   build-system = [
